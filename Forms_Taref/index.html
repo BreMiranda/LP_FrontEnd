@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <form action="https://www.w3schools.com/action_page.php">
+
+        <fieldset style="width: 600px; color: rgb(195, 36, 226);">
+            <h1>Formulário - Tarefa - Brenda 236681</h1>
+        </fieldset>
+
+        <br>
+        <fieldset style="width: 600px">
+            <legend>Dados de acesso do usuário:</legend>
+            <label for="n">Data de acesso: </label>
+            <input id="n" type="date" name="date"><br> <br>
+            <label for="nome">Nome:</label>
+            <input id="nome" type="text"><br> <br>
+            <label for="senha">Senha de acesso:</label>
+            <input type="password" name="senha" id="senha">
+        </fieldset>
+        <br>
+        <fieldset style="width: 600px">
+            <legend>Dados pessoais:</legend>
+            <label for="nome">Nome:</label>
+            <input id="nome" type="text"><br> <br>
+            <label for="endereco">Endereço:</label>
+            <input id="endereco" type="text"><br> <br>
+            <label for="num">Número:</label>
+            <input id="num" type="text"><br> <br>
+            <label for="complemento">Complemento:</label>
+            <input id="complemento" type="text"><br> <br>
+            <label for="">Estado:</label>
+            <input list="Estados" name="Estados">
+            <datalist id="Estados">
+                <option value="Escolha seu estado" select>
+                <option value="São Paulo">
+                <option value="Rio de Janeiro">
+                <option value="Bahia">
+                <option value="Minas Gerais">
+                <option value="Curitiba">
+            </datalist>
+            <br><br>
+            <label for="CEP">CEP:</label>
+            <input type="text" name="CEP" id="CEP"></input>
+            <br><br>
+            <label for="genero">Gênero:</label>
+            <br>
+            <input type="radio" id="Masculino" name="genero" value="Gênero">
+            <label for="Masculino">Masculino</label><br>
+            <input type="radio" id="Feminino" name="genero" value="Feminino">
+            <label for="Feminino">Feminino</label><br>
+            <input type="radio" id="Prefiro" name="genero" value="Prefiro">
+            <label for="Prefiro">Prefiro não dizer</label>
+            <br><br>
+            <label for="">Curso: </label> <br>
+            <input type="checkbox" id="Curso1" name="Curso1" value="ADS">
+            <label for="Curso1"> ADS</label><br>
+            <input type="checkbox" id="Curso2" name="Curso2" value="Jogos">
+            <label for="Curso2"> Jogos</label><br>
+            <input type="checkbox" id="Curso3" name="Curso3" value="Gestão de TI">
+            <label for="Curso3"> Gestão de TI</label> <br>
+            <input type="checkbox" id="Curso4" name="Curso4" value="Banco de dados">
+            <label for="Curso4"> Banco de dados</label>
+            <br><br>
+            <label for="Modelo">Modelo:</label>
+            <br>
+            <input type="radio" id="Presencial" name="modelo" value="Presencial">
+            <label for="Presencial">Presencial</label><br>
+            <input type="radio" id="EAD" name="modelo" value="EAD">
+            <label for="EAD">EAD</label><br>
+            <input type="radio" id="Semi Presencial" name="modelo" value="Semi Presencial">
+            <label for="Semi Presencial">Semi Presencial</label>
+            <br><br>
+        </fieldset>
+        <input type="submit" value="Enviar">
+        <br>
+    </form>
+</body>
+
+</html>
