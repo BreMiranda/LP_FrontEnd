@@ -1,0 +1,50 @@
+h1 {
+    color: pink;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p {
+    color: purple;
+    font-size: 5cqh;
+}
+
+.minhaClasse {
+    color: green;
+    background-color: white;
+
+}
+
+.classeTamanho {
+    font-size: 30px;
+}
+
+#meuId {
+    text-decoration: line-through;
+}
+
+body{
+    background-color: black;
+}
+img{
+    width: 200px;
+    border: 20px solid pink;
+    border-radius: 25px;
+}
+.img1{
+    width: 200px;
+    border: 20px solid purple;
+
+}
+
+.pacifico-regular {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.pixelify-sans {
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}

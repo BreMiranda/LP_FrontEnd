@@ -1,0 +1,41 @@
+.titulo{
+    margin: 10px;
+    padding: 20px;
+    border: 10px solid black;
+    width: 200px;
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.box_1{
+    margin: 0 auto;
+    background-color: pink;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    
+
+    color: white;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', 'Segoe UI', Tahoma, Geneva, Verdana, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+    line-height: 200px;
+
+    border: 5px solid black;
+}
+
+.box_2{
+    margin: 0 0 auto;
+    background-color: peachpuff;
+}
+
+.box_3{
+    margin: 0   0   0 auto;
+    background-color: purple;
+
+}
