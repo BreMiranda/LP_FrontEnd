@@ -1,0 +1,49 @@
+.titulo{
+    margin: 0px;
+    padding: 30px;
+    border: 2px solid rgb(163, 36, 169);
+    width: 500px;
+    text-align: center;
+}
+.nav{
+    margin: 0px;
+    padding: 10px;
+    border: 2px solid rgb(163, 36, 169);
+    width: 540px;
+}
+body{
+    margin: 0px;
+    padding: 10px;
+    border: 5px solid rgb(163, 36, 169);
+    width: 600px;
+
+}
+.caixa{
+    margin: 0px;
+    padding: 10px;
+    border: 2px solid rgb(163, 36, 169);
+    width: 540px;
+}
+
+.img{
+    border-radius: 10px;
+    max-width: 80px;
+}
+
+.caixaimg{
+    margin: 0px;
+    padding: 10px;
+    border: 5px solid rgb(36, 169, 120);
+}
+.img1{
+    border-radius: 10px;
+    max-width: 80px;
+    margin: 0 0 0 85%;
+}
+footer{
+    margin: 0px;
+    padding: 2px;
+    border: 2px solid rgb(163, 36, 169);
+    width: 556px;
+    text-align: center;
+}
