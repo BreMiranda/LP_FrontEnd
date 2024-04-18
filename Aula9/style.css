@@ -1,0 +1,71 @@
+*{
+    padding: 0%;
+    margin: 0;
+}
+.btn{
+    background-color: aquamarine;
+    border: none;
+    padding: 15px 32px;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.btn:hover{
+    background-color: blueviolet;
+}
+.btn:active{
+    background-color: pink;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    background-color: brown;
+    padding: 5px;
+}
+.start{
+    border-radius: 20px 0 0 20px;
+}
+.end{
+    border-radius: 0 20px 20px 0;
+}
+
+.active{
+    background-color: green;
+    color: black;
+    border: solid white 2px;
+}
+
+.tecla{
+    background-color: blueviolet;
+    border: 1px solid coral;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 30px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.teclado{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 400px;
+
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    
+    margin-top: 20px;
+    background-color: blue;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+
+.tecla:hover{
+    background-color: rgb(55, 32, 77);
+}
+.tecla:active{
+    background-color: rgb(45, 184, 137);
+}
