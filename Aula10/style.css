@@ -1,0 +1,17 @@
+.newTitulo{
+    color: blue;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.btn{
+    background-color: blue;
+    color: white;
+    padding: 8px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(106, 106, 185);
+}
